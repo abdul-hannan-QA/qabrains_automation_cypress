@@ -1,0 +1,39 @@
+{
+  "users": {
+    "valid": {
+      "email": "qa_testers@qabrains.com",
+      "password": "Password123"
+    },
+    "invalid": {
+      "email": "wrong@test.com",
+      "password": "WrongPass!"
+    }
+  },
+  "feedback": {
+    "name": "Cypress Tester",
+    "message": "Automated feedback from Cypress"
+  },
+  "form": {
+    "name": "Tester QA",
+    "email": "tester@example.com",
+    "phone": "01700111222",
+    "date": "2025-09-05"
+  },
+  "registration": {
+    "valid": {
+      "name": "Tester QA",
+      "email": "tester@example.com",
+      "password": "Password123",
+      "confirmPassword": "Password123"
+      
+    },
+    "invalid": {
+      "name": "",
+      "email": "invalid-email",
+      "password": "",
+      "confirmPassword": "Password123"
+    
+    }
+  }
+}
+
